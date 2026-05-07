@@ -1,5 +1,8 @@
 public class Main6 {
     public static void main(String[] args) {
-        System.out.println("更新前の価格:1000円\n更新前の価格：1200円");
+        int price =1000;
+        System.out.println("更新前の価格:"+price+"円");
+        price =1200;
+        System.out.println("更新後の価格："+price+"円");
     }
 }
