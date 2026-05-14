@@ -1,6 +1,6 @@
 public class Main8 {
     public static void main(String[] args) {
-        String ATK="30";
+        String ATK="50";
         String DEF="20";
         int atk=Integer.parseInt(ATK);
         int def=Integer.parseInt(DEF);
