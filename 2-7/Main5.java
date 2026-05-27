@@ -13,6 +13,5 @@ public class Main5 {
         System.out.println("消費税:"+tax+"円");
         System.out.println("合計金額:"+totalprice+"円");
         System.out.println("おつり:"+change+"円");
- 
     }   
 }
