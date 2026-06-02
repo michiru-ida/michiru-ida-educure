@@ -4,14 +4,14 @@ public class Main5 {
         double pen=120*5;
         double eraser=100*2;
         
-        int toatl=(int)(note+pen+eraser);
-        int tax=(int)(toatl*0.1);
-        int toatlprice=toatl+tax;
-        int change=2000-toatlprice;
+        int total=(int)(note+pen+eraser);
+        int tax=(int)(total*0.1);
+        int totalprice=total+tax;
+        int change=2000-totalprice;
             
-        System.out.println("小計:"+toatl+"円");
+        System.out.println("小計:"+total+"円");
         System.out.println("消費税:"+tax+"円");
-        System.out.println("合計金額:"+toatlprice+"円");
+        System.out.println("合計金額:"+totalprice+"円");
         System.out.println("おつり:"+change+"円");
     }   
 }
