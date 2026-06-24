@@ -27,11 +27,10 @@ public class Main7 {
                     case 2:
                         System.out.println("E");
                      break;
-            }    
-            break;
-            default:
-                System.out.println("Invalid key");
-                break;
+                    default:
+                        System.out.println("Invalid key");
+                  break;
+                }
+            }
         }
     }
-}
