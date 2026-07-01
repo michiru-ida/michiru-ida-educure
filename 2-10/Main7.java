@@ -15,9 +15,8 @@ public class Main7 {
                         break;
                     default:
                         System.out.println("C");
-                        break;
-            }
-            break;
+                }
+                break;       
 
             case 2:
                 switch (pressCount) {
@@ -28,9 +27,13 @@ public class Main7 {
                         System.out.println("E");
                      break;
                     default:
-                        System.out.println("Invalid key");
-                  break;
+                        System.out.println("F");
+                     
                 }
+                break;     
+           default:
+            System.out.println("Invalid key");
+            break;
             }
         }
     }

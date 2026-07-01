@@ -6,11 +6,11 @@ public class Main9 {
 
         switch (operator) {
             case '+':
-                 System.out.println(num1+num2);
+                 System.out.println("結果:"+(num1+num2));
             break;
 
             case '-':
-                System.out.println(num1-num2);
+                System.out.println("結果:"+(num1-num2));
             break;
 
             case '*':
