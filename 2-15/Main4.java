@@ -11,8 +11,20 @@ public class Main4 {
         seats[3][5]=1;
         seats[4][2]=1;
 
-        Scanner sc=new Scanner(System.in);
 
+ 
+        System.out.println("予約前の座席状況:");
+        for (int i=0;i<5;i++) {
+            for(int j=0;j<6;j++){
+
+                System.out.print("["+seats[i][j]+"]");
+            }
+           
+            System.out.println();
+        }
+        Scanner sc=new Scanner(System.in);
+    
+       
         System.out.print("予約したい座席番号（1-5）:");
         int row=sc.nextInt();
 
@@ -31,13 +43,16 @@ public class Main4 {
         }
         seats[row-1][col-1]=1;
         System.out.println(row+"行"+col+"列の座席を予約しました");
-
+          
         for (int i=0;i<5;i++) {
             for(int j=0;j<6;j++){
+
                 System.out.print("["+seats[i][j]+"]");
             }
+           
             System.out.println();
+            
         }
-    
+        
 }
 }
